@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+.upper{
+    background-color: rgb(3, 70, 3);
+    color: white;
+   
+    font-size: 15px
+}
+
+.upper p{
+    padding: 5px;
+    margin: 0;
+   margin-left: 6.5%;
+}
+
+.upper a{
+    color: rgb(126, 208, 126);
+}
+
+.mid{
+    background-color: rgb(28, 108, 28);
+   
+}
+
+.mid p{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    border: 0;
+}
+
+.mid span{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 8px;
+    margin-left: 5%;
+}
+
+.buttom{
+    background-color: rgb(30, 132, 30);
+    margin: 0;
+
+}
+
+.buttom ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.4%;
+}
+
+.buttom ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.buttom a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Main part */
+
+.container{
+    display: flex;
+    margin: 0px 6.5%;
+    margin-bottom: 20px;
+    
+}
+
+.container h1{
+    margin: 0;
+}
+
+.left h1{
+    padding-top: 10px;
+}
+
+.left{
+    padding-right: 20px;
+    text-align: justify;
+}
+
+
+.container span{
+    color: rgb(90, 206, 90);
+}
+
+.alide{
+    margin-left: 50px;
+    border-left: 2px solid green;
+    padding: 5px;
+}
+
+#dark{
+    color: black;
+    font-weight: 900;
+}
+
+.numit{
+    list-style-type:decimal;
+}
+
+.numSpace{
+    margin: 0;
+}
+
+
+.right{
+    width: 100%;
+}
+
+#first{
+    margin-top: 0;
+}
+
+.data{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(190, 199, 155, 0.886);
+    padding: 20px;
+}
+
+.data ul{
+    list-style: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: rgb(31, 65, 30);
+    
+    text-align: center;
+  }
+
+.footDiv{
+    display: flex;
+    background-color: rgb(31, 65, 30);
+    color: rgb(232, 228, 228);
+
+}
+
+.footDiv ul{
+    list-style: none;
+}
+
+.footDiv div{
+    margin-left: 5%;
+}
+
+.footDiv ul li{
+    font-size: 15px;
+}
+
+.heading{
+    font-weight: 900;
+    padding: 7px 0px;
+    
+}
+
+.rightF{
+    text-align: right;
+    margin-left: 50%;
+    width: 40%
+}
+
